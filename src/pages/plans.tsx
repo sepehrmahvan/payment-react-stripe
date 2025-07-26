@@ -51,7 +51,6 @@ const Plans: React.FC<{ getPlanAmount: (plan: PlansDataTypes) => void }> = ({
     setIsLoading(true);
 
     try {
-      // ارسال اطلاعات پلن قبل از پرداخت
       getPlanAmount(selectedPlan);
 
       // Trigger form validation and wallet collection
